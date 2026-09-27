@@ -1,4 +1,4 @@
- import largePhoneHomeScreen from "..//assets/BackgroundImages/largescreenbackground.png";
+//  import largePhoneHomeScreen from "..//assets/BackgroundImages/largescreenbackground.png";
 import ActionButton from "../components/buttons/ActionButton";
 // import SecondaryButton from "../components/buttons/SecondaryButton";
 import { ArrowRight } from "lucide-react";
