@@ -3,6 +3,7 @@ import ActionButton from "../components/buttons/ActionButton";
 // import SecondaryButton from "../components/buttons/SecondaryButton";
 import { ArrowRight } from "lucide-react";
 import NavrBar from "../components/nav/NavBar";
+import Specialties from "../components/herosection/Specialties";
  
  function DesktopHomeView() {
   return (
@@ -32,6 +33,10 @@ import NavrBar from "../components/nav/NavBar";
           </div>
           
       </div>
+     </section>
+
+     <section  className="bg-white padding h-[400px] md:h-[600px] w-full">
+      <Specialties />
      </section>
     </div>
   );

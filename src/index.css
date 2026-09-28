@@ -45,6 +45,10 @@ body {
   
 }
 
+.padding {
+    padding: 50px;
+  }
+
 .phonetop-bg {
     background-image: url('././assets/BackgroundImages/largescreenbackground.png');
     background-size: cover;
@@ -60,6 +64,10 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     padding-top: 50px;
+  }
+
+  .padding {
+    padding: 20px;
   }
 }
 

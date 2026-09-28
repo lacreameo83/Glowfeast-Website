@@ -39,14 +39,14 @@ function  NavBar() {
 
            <div className="flex items-center gap-4">
              <span className="hidden md:block">
-                        <SearchIcon className="w-4 h-4" />
+                        <SearchIcon className="w-4 cursor-pointer h-4" style={{ color: "var(--lightgreen)" }} />
                      </span>
                      <span style={{ backgroundImage: "var(--primaryGradient)" }} className="hidden rounded-[18px] md:block">
 
                         <ActionButton  text="Order Now" color="text-white"    />
 
                      </span>
-                     <span>
+                     <span className="md:hidden">
                         <MenuIcon className="w-4 text-dark-green cursor-pointer h-4" />
                      </span>
            </div>
